@@ -7,5 +7,9 @@ public class OrangeLogInPage {
         return orangeLogInUrl;
     }
 
-
+    /**
+     * impelent: 1) WebElements: email/username, password, loginButton
+     *           2) log in method
+     *           3) assert that user logged in
+     */
 }

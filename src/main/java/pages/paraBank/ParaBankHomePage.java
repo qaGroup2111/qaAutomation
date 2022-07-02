@@ -34,16 +34,6 @@ public class ParaBankHomePage {
         PageFactory.initElements(driver, this);
     }
 
-    public void logInToParaBank(String username, String password) {
-//        driver.get(paraBankRegistrationPage);
-    }
-
-    public void checkIfUserCreatedSuccessfullly() {
-//        Assert:
-//        elem.sendKeys("safasf");
-//        Your account was created successfully. You are now logged in.
-    }
-
     public void clickRegistrationButton() {
         register.click();
     }
